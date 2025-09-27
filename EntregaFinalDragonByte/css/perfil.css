@@ -1,0 +1,78 @@
+/*PERFIL DE JUGADORES*/
+.profile {
+    background-image: url("../img/Fnd-register.png");
+    background-size: cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 30px; 
+    position: relative; 
+    z-index: 1;
+}
+
+.profile-container {
+    background-color: rgba(158, 160, 244, 0.75); 
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 8px 25px rgba(48, 0, 60, 0.5);
+    color: rgb(50, 3, 54);
+    margin-top: 20px; /* Lo usamos para separarlo*/
+    margin-bottom: 30px;
+}
+
+.profile-container-title {
+    color: #5A4D70;
+    font-size: xx-large;
+}
+.img-profile {
+    margin-top: 40px;
+    height: 70%;
+    border-radius: 20px;
+    border-style:groove;
+}
+.profile-container-ul{
+    color: #863185;
+    font-size: x-large;
+    font-weight: bold;
+    list-style-type:square;
+}
+.nav-item {
+    color: #d1b4e7;
+    font-weight: bold;
+    background-color: #8434ae;  
+}
+
+/*Boost Learning*/
+
+.card-img-filter {
+    filter: brightness(0.5);
+}
+.btn-play {
+    background-color: #1e0232; 
+    color: #ede6f1;
+    font-style: italic;
+    font-size: smaller;
+    padding: 5px !important;
+}
+.btn-play:hover {
+    background-color: rgba(90, 77, 112, 0.3);
+    border-color: #a090bc;
+    color: #0f011c;
+}
+.boost-title {
+    color: #3b0f65;
+    font-style: oblique;
+}
+.btn-return {
+    justify-content: center;
+    align-self: center;
+    background-color: #1e0232; 
+    color: #ede6f1;
+    font-style: italic;
+    font-size:x-large;
+    padding: 10px !important;
+}

@@ -1,0 +1,62 @@
+.body {
+    background-image: url("../img/Mapa.png"); 
+    background-size: cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    z-index: 1;
+}
+.container {
+    text-align: center;
+}
+.header {
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+    background-color: rgba(74, 58, 101, 0.4);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.header:hover {
+    background-color: rgb(98, 10, 106);
+    border-color: #a090bc;
+    color: #fbf9fd;
+}
+.card {
+    background-color: rgb(229, 208, 250);
+}
+.btn-course {
+    background-color: #1e0232; 
+    color: #ede6f1;
+    font-style: italic;
+    font-size:large;
+    padding: 5px !important;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-course:hover {
+    background-color: rgba(90, 77, 112, 0.3);
+    border-color: #a090bc;
+    color: #0f011c;
+}
+.btn-return {
+    justify-content: center;
+    background-color:#1e0232 ;
+    color: #f5f3f7;
+    font-style: italic;
+    font-size:x-large;
+    font-weight: bolder;
+    padding: 10px !important;
+}
+
+.btn-return:hover {
+    background-color: rgba(15, 80, 193, 0.5);
+    border-color: rgba(2, 31, 81, 0.5);
+    color: #fbf9fd;
+}

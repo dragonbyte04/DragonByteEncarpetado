@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Soporte - Dragones</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/soportecnico.css">
+</head>
+<body>
+
+    <div class="support-container">
+        <header>
+            <h1>In-Game Support</h1>
+            <p>A guardian dragon will attend to your request. Describe your quest clearly.</p>
+        </header>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="username">User name</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Account e-mail address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="issue_type">What can we help you with?</label>
+                <select id="issue_type" name="issue_type">
+                    <option value="error">Useful error codes</option>
+                    <option value="recovery">Account recovery</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Describe your problem</label>
+                <textarea id="description" name="description" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Ticket</button>
+            <a href="/views/menuPrincipal.html" class="return">Return to Menu</a>
+        </form>
+    </div>
+
+</body>
+</html>

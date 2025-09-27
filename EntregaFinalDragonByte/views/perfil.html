@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/perfil.css">
+    <title>Perfil del jugador</title>
+</head>
+
+<body class="profile">
+
+    <section class="container my-5 shadow my-3">
+        <div class="row profile-container">
+            <div class="col-12">
+                <!--Tabs/Pestañas-->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active text-reset" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">Player Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-reset" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false">Boost your learning!</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-reset" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false">Boost your habits!</button>
+                    </li>
+                </ul>
+                <!--Player profile-->
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <!--Contenedor-->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-4 text-center">
+                                    <img src="/img/profile-photo.png" alt="Foto" class="img-fluid img-profile">
+                                    <h2 class="profile-container-title">LUNALIGHT</h2>
+                                    <h2 class="h5">ROOKIE PLAYER</h2>
+                                </div>
+                                <div class="col-12 col-md-8 align-self-center">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="/img/skills.png" alt="Skills" class="icon-pofile">
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="profile-container-title">Skills</h4>
+                                            <ul class="profile-container-ul">
+                                                <li>Web Design with Flexbox and Grid - CSS</li>
+                                                <li>Responsive - CSS</li>
+                                                <li>Level B2 - English</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="/img/contest.png" alt="Contest" >
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="profile-container-title">Contest</h4>
+                                            <p class="profile-container-ul">2nd Place - Grammar Contest</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="/img/rewards.png" alt="Rewards">
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="profile-container-title">Rewards</h4>
+                                            <p class="profile-container-ul">Platzi membership for 1 month - Grammar Contest</p>
+                                        </div>
+                                    </div> <br><br>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="/img/improve.png" alt="Improve">
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="profile-container-title">To be Improved</h4>
+                                            <p class="profile-container-ul">While Loop</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Boost your learning-->
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="container mt-3">
+                            <div class="row text-center justify-content-md-center">
+                                <!--Knight Flex table-->
+                                <article class="col-md-6 col-lg-4 card-effect">
+                                    <div class="card h-100 shadow p-3">
+                                        <img src="/img/flexboxknights.png" alt="Knight flex table"
+                                        class="card-img card-img-filter img-fluid">
+                                        <h4 class="boost-title">Knights of the Flexbox Table</h4>
+                                        <p>
+                                            If you love Tailwind, this one is amazing! It uses tailwind classes to teach
+                                            you to flex options. A super combination if you ask me.
+                                        </p>
+                                        <hr>
+                                        <a href="https://knightsoftheflexboxtable.com/" class="btn btn-play">Play Now!</a>
+                                    </div>
+                                </article>
+                                <!--Flexbox Froggy-->
+                                <article class="col-md-6 col-lg-4 card-effect">
+                                    <div class="card h-100 shadow p-3">
+                                        <img src="/img/flexboxfroggy.png" alt="FlexBox Froggy"
+                                        class="card-img card-img-filter img-fluid">
+                                        <h4 class="boost-title">FlexBox Froggy</h4>
+                                        <p>
+                                            Flexbox froggy was one of the first CSS-solving games I’ve played, and I
+                                            love it. It’s a super fun way to learn flexbox positions across the board.
+                                        </p>
+                                        <hr>
+                                        <a href="https://flexboxfroggy.com/" class="btn btn-play">Play Now!</a>
+                                    </div>
+                                </article>
+                                <!--Grid Garden-->
+                                <article class="col-md-6 col-lg-4 card-effect">
+                                    <div class="card h-100 shadow p-3">
+                                        <img src="/img/flexboxgridgarden.jpg" alt="Grid garden"
+                                        class="card-img card-img-filter img-fluid">
+                                        <h4 class="boost-title">Grid Garden</h4>
+                                        <p>
+                                            Grid garden is a super fun way to learn CSS Grid. You have to use grid
+                                            layouts to ensure all the carrots get water.
+                                        </p>
+                                        <hr>
+                                        <a href="https://cssgridgarden.com/" class="btn btn-play">Play Now!</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Boost your habits-->
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div class="container mt-3">
+                            <div class="row text-center justify-content-md-center">
+                                <!--Habatica-->
+                                <article class="col-md-6 col-lg-4 card-effect">
+                                    <div class="card h-100 shadow p-3">
+                                        <img src="/img/habitica.png" alt="Habatica"
+                                        class="card-img card-img-filter img-fluid">
+                                        <h4 class="boost-title">Habatica: Gamify yourself</h4>
+                                        <p>
+                                            It's time to have fun when you get things done! Join over 4 million Habiticans and improve your life one task at a time.
+                                        </p>
+                                        <hr>
+                                        <a href="https://habitica.com/static/home" class="btn btn-play">Play Now!</a>
+                                    </div>
+                                </article>
+                                <!--BrainBloom-->
+                                <article class="col-md-6 col-lg-4 card-effect">
+                                    <div class="card h-100 shadow p-3">
+                                        <img src="/img/brainbloom.png" alt="BrainBloom"
+                                        class="card-img card-img-filter img-fluid">
+                                        <h4 class="boost-title">BrainBloom: Discover your mind profile</h4>
+                                        <p>
+                                            Selects the right set of intelligence games and memory games to improve your mental agility.
+                                        </p>
+                                        <hr>
+                                        <a href="https://quiz.brainbloom.me/" class="btn btn-play">Play Now!</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div> <a href="/views/menuPrincipal.html" class="btn btn-return">Back to Menu</a></div> 
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #2d033b, #810ca8);
+  color: #f3e8ff;
+}
+
+header {
+  background-color: #c169e1;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.faq {
+  margin-bottom: 1.5rem;
+}
+
+.faq h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #c77dff;
+}
+
+.faq p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #9d4edd;
+}
+
+.seccion-galeria,
+.seccion-redes {
+  color: #e0aaff;
+  margin-top: 3rem;
+}
+
+.social {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.social a {
+  margin: 0 1rem;
+  color: #c77dff;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #f3e8ff;
+}
+
+footer {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.testimonios {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.seccion-testimonios {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #e0aaff;
+}
+
+.testimonio {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #c77dff;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.testimonio p {
+  font-style: italic;
+  margin: 0 0 0.5rem 0;
+  color: #f3e8ff;
+}
+
+.testimonio span {
+  display: block;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.btn {
+  background-color: #c169e1;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #1e032d;
+  font-weight: bold;
+}
+.btn-support {
+  margin-top: 10px;
+  text-align: center;
+  color: #e8d3f4;
+  
+}

@@ -1,0 +1,126 @@
+/* --- VARIABLES DE DISEÑO (Paleta colores) --- */
+:root {
+    --bg-color-form: rgba(15, 12, 12, 0.85); 
+    --border-color: #8594f6;
+    --text-color: #e0e0e0;
+    --primary-glow: #617dcf; 
+    --input-bg: #1d1e21;
+    --font-family-main: 'Cinzel', serif;
+}
+
+/* --- ESTILOS GENERALES Y FONDO DE PANTALLA --- */
+body {
+    margin: 0;
+    font-family: var(--font-family-main);
+   
+    background-image: url('../img/Soporte.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* --- CONTENEDOR PRINCIPAL DEL FORMULARIO --- */
+.support-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--bg-color-form);
+    border: 3px solid var(--border-color);
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px); 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: var(--primary-glow);
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px var(--primary-glow);
+}
+
+header p {
+    font-size: 0.9em;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+/* --- GRUPOS DEL FORMULARIO --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+/* --- ESTILO DE INPUTS, SELECT Y TEXTAREA --- */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    box-sizing: border-box; 
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary-glow);
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+textarea {
+    resize: vertical; 
+}
+
+/* --- BOTÓN DE ENVÍO --- */
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-glow);
+    border: none;
+    border-radius: 4px;
+    color: #dae3fb;
+    font-family: var(--font-family-main);
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #946cd0; 
+    box-shadow: 0 0 15px var(--primary-glow);
+    transform: translateY(-2px);
+}
+.return {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: larger;  
+}

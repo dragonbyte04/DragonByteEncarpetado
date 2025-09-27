@@ -1,0 +1,403 @@
+/* ESTILO GENERAL*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden; 
+}
+
+/*INDEX*/
+.banner {
+    background-image: url("../img/Portada.png"); 
+    padding: 25%;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.fuenteColor {
+    color: #db5cc8 !important; 
+    text-decoration: none;
+}
+
+.fuenteColor:hover {
+    text-decoration: underline;
+}
+
+/*HOME*/
+.home {
+    background-image: url("../img/bg-home.png"); 
+    background-size: cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 30px;
+    position: relative; 
+    z-index: 1;
+}
+
+/* Formulario deL login */
+.login-container {
+    background-color: rgba(20, 15, 35, 0.75); 
+    padding: 45px 40px;
+    border-radius: 25px; 
+    width: 100%;
+    max-width: 420px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    color: white; 
+    height: 100vh;
+    /* Lo usamos para centrar el contenido*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.login-title {
+    color: #ffffff;
+    font-size: 2.2em; 
+    font-weight: bold; 
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    text-align: left; 
+    text-transform: uppercase; 
+}
+
+/* Estilos para los campos del formulario (Bootstrap .form-control) */
+.login-container .form-control {
+    background-color: #3B2F50; 
+    border: 1px solid #5A4D70; 
+    border-radius: 8px;
+    color: #ffffff; 
+    margin-bottom: 22px;
+    padding: 16px 20px;
+    font-size: 1em;
+}
+
+.login-container .form-control::placeholder {
+    color: #B0A5C8; 
+    opacity: 0.8; 
+}
+
+.login-container .form-control:focus {
+    background-color: #45385E; 
+    color: #ffffff;
+    border-color: #db5cc8; 
+    box-shadow: 0 0 0 0.2rem rgba(219, 92, 200, 0.25); 
+}
+
+/* Estilos para el botón de Login */
+.btn-login {
+    background-color: #5D3B8C; 
+    color: #ffffff;
+    border: none;
+    padding: 16px 0;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 15px;
+}
+
+.btn-login:hover {
+    background-color: #4B2E70; 
+    transform: translateY(-1px); 
+}
+
+.btn-login:active {
+    transform: translateY(0px); 
+}
+
+/* Estilos para el enlace de "Sign Up" */
+.signup-link {
+    color: #dddddd; 
+    text-align: center; 
+    margin-top: 30px;
+    font-size: 0.95em;
+}
+
+.signup-link a {
+    font-weight: bold; 
+}
+
+/*REGISTRO*/
+
+.register {
+    background-image: url("../img/bg-register.jpeg"); 
+    background-size: cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 30px;
+    position: relative; 
+    z-index: 1;
+}
+
+.register-container {
+    background-color: rgba(188, 106, 184, 0.85); 
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 580px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+}
+
+.register-title {
+    color: #1e0232;
+    font-size: 2em; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center; 
+}
+
+.register-container .form-group {
+    margin-bottom: 18px;
+}
+
+.register-container .form-group label,
+.register-container fieldset legend.dob-legend {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #e0e0e0; 
+}
+
+.register-container fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 18px; 
+}
+
+.register-container fieldset legend.dob-legend {
+    font-size: 1.05em; 
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.dob-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; 
+}
+
+.dob-group > div {
+    flex: 1; 
+}
+
+/* Estilos para los campos de entrada y select en el registro */
+.register-container .form-control {
+    background-color: #3B2F50; 
+    border: 1px solid #5A4D70; 
+    border-radius: 8px;
+    color: #ffffff; 
+    padding: 10px 15px; 
+    font-size: 1em;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.register-container .form-control::placeholder {
+    color: #B0A5C8; 
+    opacity: 0.8; 
+}
+
+.register-container .form-control:focus {
+    background-color: #45385E; 
+    color: #ffffff;
+    border-color: #db5cc8; 
+    box-shadow: 0 0 0 0.2rem rgba(219, 92, 200, 0.25); 
+}
+
+/* Estilos para los botones del formulario de registro */
+.btn-register, .btn-return {
+    padding: 10px 0; 
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, transform 0.1s ease, border-color 0.3s ease;
+}
+
+.btn-register {
+    background-color: #5D3B8C; 
+    color: #ffffff;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.btn-register:hover {
+    background-color: #4B2E70; 
+    transform: translateY(-1px); 
+}
+
+.btn-return {
+    background-color: transparent; 
+    color: #1e0232;
+    font-style: italic;
+    font-size: smaller;
+    padding: 5px !important;
+}
+
+.btn-return:hover {
+    background-color: rgba(90, 77, 112, 0.3);
+    border-color: #a090bc;
+    color: #fbf9fd;
+}
+
+
+.register-container select.form-control {
+   
+    color: #ffffff;
+}
+
+.register-container select.form-control option {
+   
+    background-color: #3B2F50;
+    color: #ffffff;
+}
+
+/*SELECTOR DE MASCOTA*/
+
+.selector {
+  /* Imagen de fondo y configuración general */
+  background-image: url("../img/nidohuevos.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  
+  /* Usamos Flexbox para centrar todo el contenido */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Requerido para que la superposición de color funcione */
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+/* Capa de superposición púrpura semitransparente */
+.selector::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76, 23, 125, 0.6);
+  z-index: -1;
+}
+
+/* Contenedor principal que agrupa y centra los elementos */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* Espacio entre elementos */
+  width: 100%;
+}
+
+/* Estilo para el título "Java Dragon" */
+.title-label {
+  background-color: #4A0E71;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.dragon-image {
+  width: 300px;
+  height: 300px;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  
+ 
+  object-fit: contain;
+}
+
+/* ================================================= */
+
+
+/* Contenedor del carrusel */
+.carousel-container {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Estilo para el botón de selección */
+.btn-select-egg {
+  background-color: #6a1b9a;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  
+}
+.btn-select-egg a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-select-egg:hover {
+  background-color: #8e24aa;
+  color: white;
+  
+}
+
+/*PERFIL DE JUGADORES*/
+.profile {
+    background-image: url("../img/Fnd-register.png");
+    background-size: cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 30px; 
+    position: relative; 
+    z-index: 1;
+}
+
