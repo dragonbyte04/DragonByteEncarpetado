@@ -13,7 +13,7 @@ body {
     margin: 0;
     font-family: var(--font-family-main);
    
-    background-image: url('../img/Soporte.jpeg'); 
+    background-image: url('../public/Soporte.jpeg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

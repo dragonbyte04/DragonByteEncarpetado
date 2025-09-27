@@ -1,5 +1,5 @@
 .body {
-    background-image: url("../img/Mapa.png"); 
+    background-image: url("../public/Mapa.png"); 
     background-size: cover;
     background-position: top center; 
     background-attachment: fixed;

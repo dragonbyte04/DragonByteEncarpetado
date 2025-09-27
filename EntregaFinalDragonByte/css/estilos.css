@@ -8,7 +8,7 @@ body, html {
 
 /*INDEX*/
 .banner {
-    background-image: url("../img/Portada.png"); 
+    background-image: url("../public/Portada.png"); 
     padding: 25%;
     background-size: cover;
     background-position: top center;
@@ -41,7 +41,7 @@ body, html {
 
 /*HOME*/
 .home {
-    background-image: url("../img/bg-home.png"); 
+    background-image: url("../public/bg-home.png"); 
     background-size: cover;
     background-position: top center; 
     background-attachment: fixed;
@@ -142,7 +142,7 @@ body, html {
 /*REGISTRO*/
 
 .register {
-    background-image: url("../img/bg-register.jpeg"); 
+    background-image: url("../public/bg-register.jpeg"); 
     background-size: cover;
     background-position: top center; 
     background-attachment: fixed;
@@ -292,7 +292,7 @@ body, html {
 
 .selector {
   /* Imagen de fondo y configuración general */
-  background-image: url("../img/nidohuevos.png");
+  background-image: url("../public/nidohuevos.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -388,7 +388,7 @@ body, html {
 
 /*PERFIL DE JUGADORES*/
 .profile {
-    background-image: url("../img/Fnd-register.png");
+    background-image: url("../public/Fnd-register.png");
     background-size: cover;
     background-position: top center; 
     background-attachment: fixed;
